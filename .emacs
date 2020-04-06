@@ -1,4 +1,3 @@
-
 ;;=====================================================================
 ;;基本设置
 ;;=====================================================================
@@ -17,7 +16,8 @@
 ;;         ("zenburn-bg+3"  . "#4F4F4F")))
 ;; (load-theme 'zenburn t)
 ;;=====================================================================
-(setq default-directory "~/Work/");;设置默认文件夹
+
+(setq default-directory "~/work/") ;;设置默认文件夹
 (setq inhibit-startup-message t);;关闭启动画面
 (global-linum-mode t);侧边显示行号
 (electric-pair-mode t);自动补全
@@ -93,16 +93,18 @@
 			     ;;显示行数
 			     (linum-mode 1)
 			     ;;打开自动补全
-			     ;(auto-complete-mode 1)
+                                        ;(auto-complete-mode 1)
 			     ;;启动math mode
 			     (LaTeX-math-mode 1)
 			     ;;打开outline mode
 			     (outline-minor-mode 1)
 			     ;;
-			     ))				
+			     ))
+
 ;;=====================================================================
 ;;ESS
 ;;=====================================================================
+
 (require 'ess-r-mode)
 
 ;;==================================================
@@ -136,15 +138,15 @@
 ;; 	       ("\\subparagraph{%s}" . "\\subparagraph{%s}")
 ;; 	       ))
 
-;(mapc (lambda (mode)
-;	(add-hook 'LaTeX-mode-hook mode))
- ;     (list 'turn-on-cdlatex
-;	    'reftex-mode
-;	    'outline-minor-mode
-;	    'auto-fill-mode
-;	    'flyspell-mode
-;	    'hide-body t
-;	    ))
+                                        ;(mapc (lambda (mode)
+                                        ;	(add-hook 'LaTeX-mode-hook mode))
+                                        ;     (list 'turn-on-cdlatex
+                                        ;	    'reftex-mode
+                                        ;	    'outline-minor-mode
+                                        ;	    'auto-fill-mode
+                                        ;	    'flyspell-mode
+                                        ;	    'hide-body t
+                                        ;	    ))
 ;;(add-hook 'LaTeX-mode-hook 'turn-on-cdlatex)
 ;; with AUCTeX LaTeX mode
 ;;(add-hook 'latex-mode-hook 'turn-on-cdlatex)
@@ -155,6 +157,7 @@
 ;;(setq TeX-source-correlate-mode t)
 ;;(setq TeX-source-correlate-method 'synctex)
 ;;(setq TeX-view-program-list
+
 ;;==================================================
 ;; maxima
 ;;==================================================
