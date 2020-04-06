@@ -3,9 +3,9 @@
 ## 常用配置
 ## 常见语言
 + C
-+ Java
 + C++
-+ python
++ Java
++ Python
 ## 数学软件
 ### LaTex
 + AUCTeX
@@ -14,9 +14,3 @@
 ### Sigular
 ## 统计学软件
 ### ESS(R,SAS,S+)
-
-
-
-
-
-
