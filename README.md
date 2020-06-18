@@ -10,6 +10,7 @@
 ### LaTex
 + AUCTeX
 + cdLaTeX
++ RefLaTeX
 ### Maxima
 ### Sigular
 ## 统计学软件
