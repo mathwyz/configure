@@ -7,8 +7,8 @@
 (display-time-mode 0);;不显示时间
 (setq frame-title-format "Emacs");;设置标题
 ;;=====================================================================
-(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
-(load-theme 'zenburn t);;主题
+;; (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+;; (load-theme 'zenburn t);;主题
 ;; (setq zenburn-override-colors-alist
 ;;       '(("zenburn-bg+05" . "#282828")
 ;;         ("zenburn-bg+1"  . "#2F2F2F")
