@@ -1,0 +1,11 @@
+ls
+ls
+xelatex algebra-note.tex 
+ls
+xelatex algebra-note.tex 
+sl
+ls                                                                                                                                                                
+ls
+ls
+ls
+xelatex algebra-note.tex
