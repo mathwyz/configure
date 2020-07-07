@@ -1,0 +1,9 @@
+** 常见语言
+** 数学软件
+*** LaTeX
+**** AUCTeX
+**** RefTeX
+reftex-citation C-c [
+reftex-doc C-c =
+reftex-labal C-c (
+reftex-index C-c <
